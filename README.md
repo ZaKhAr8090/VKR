@@ -59,20 +59,20 @@
 ## Структура проекта
 
 Anomaly_detection/
-├── Autoencoder_folder/
-│   └── test_autoencoder.ipynb        # Для запуска необходимо указать путь к папке с чистыми изображениями и с аномальными
-├── CLIP_folder/
-│   └── test_clip.ipynb               # Для запуска необходимо указать путь к папке с изображениями
-├── DINO_folder/
-│   ├── anomaly_photo.py              # Визуализация
-│   ├── dino.py                       # Векторизация через DINO
-│   ├── PCA_kmeans.py                 # Снижение размерности
-│   └── tests_dino.ipynb              # Для запуска необходимо указать путь к папке с чистыми изображениями и с аномальным
-├── GIT_folder/
-│   ├── anomaly_photo.py              # Визуализация
-│   ├── GIT_vectors.py                # Векторизация через GIT
-│   ├── PCA_kmeans.py                 # Снижение размерности
-│   └── tests_git.ipynb               # Для запуска необходимо указать путь к папке с чистыми изображениями и с аномальным
-└── Segmentation/
-    ├── from_det_to_seg.ipynb         # Метод перехода от детекции к сегментации
-    └── segmentation_final_results.ipynb # Финальные метрики сегментации
+- Autoencoder_folder/
+  - test_autoencoder.ipynb        # Для запуска необходимо указать путь к папке с чистыми изображениями и с аномальными
+- CLIP_folder/
+  - test_clip.ipynb               # Для запуска необходимо указать путь к папке с изображениями
+- DINO_folder/
+  - anomaly_photo.py              # Визуализация
+  - dino.py                       # Векторизация через DINO
+  - PCA_kmeans.py                 # Снижение размерности
+  - tests_dino.ipynb              # Для запуска необходимо указать путь к папке с чистыми изображениями и с аномальными
+- GIT_folder/
+  - anomaly_photo.py              # Визуализация
+  - GIT_vectors.py                # Векторизация через GIT
+  - PCA_kmeans.py                 # Снижение размерности
+  - tests_git.ipynb               # Для запуска необходимо указать путь к папке с чистыми изображениями и с аномальными
+- Segmentation/
+  - from_det_to_seg.ipynb         # Метод перехода от детекции к сегментации
+  - segmentation_final_results.ipynb # Финальные метрики сегментации
